@@ -19,6 +19,7 @@ public class Circulo {
     }
 
     //Add elemento no final, ou no inicio caso seja o primeiro
+    //O(1)
     public void adicionaFinal(Integer elemento){
         // Primeiro cria o nodo
         Pessoa n = new Pessoa(elemento);
@@ -55,6 +56,7 @@ public class Circulo {
     }
 
     //Insere o novo elemento após o elementoBase
+    //O(n)
     public void adicionaMeio(Integer elemento, Integer elementoBase){
         // Primeiro cria o nodo
         Pessoa n = new Pessoa(elemento);
@@ -85,6 +87,7 @@ public class Circulo {
         count++;
     }
 
+    //O(n)
     public void adicionar(Integer elemento){
         //Se estiver vazia, adicionar o primeiro elemento
         if(count <=2 ){
