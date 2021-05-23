@@ -16,7 +16,7 @@ public class Main {
 
         System.out.print("\n\nInforme quantas pessoas participaram: ");
         int qtdPessoas = in.nextInt();
-
+        //O(n) 
         for(int i=0; i<qtdPessoas; i++){
             Integer elemento = i;
             circulo.adicionar(elemento);
